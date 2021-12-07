@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=c, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    
+    <h1 id="title">  ETCH - A - SKETCH 🖍️ </h1>
+   <div id="game">
+    <div id="controls"> 
+        
+        <div id="grid-size">
+            <p>Choose a grid size</p>
+            <button class="button" id="b16">16 x 16</button>
+            <button class="button" id="b32">32 x 32</button>
+            <button class="button" id="b64">64 x 64</button>
+            
+        </div>
+        <div id="color-selector">
+            <p>Choose a color</p>
+            <input type="color" class="button" value="#000000" id="colorPicker">
+        </div>
+        <div id="clean-canvas">
+            <p>Click to clean</p>
+            <button class="button" id="clean">Clean canvas</button>
+        </div>
+    </div>
+
+    <div id="container">
+
+    </div>
+</div> 
 </body>
 </html>
+
+
